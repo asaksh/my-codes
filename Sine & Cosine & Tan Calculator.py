@@ -19,7 +19,8 @@ height = int(input("Enter the height of the triangle: "))
 print("The sine of", angle, "is", sine_result)
 print("The cosine of", angle, "is", cosine_result)
 print("The tangent of", angle, "is", tangent_result)
-"*All in radians"
+# All in radians
+
 print("\nThe right-angled triangle formation is like that:")
 for i in range(1, height + 1):
     for j in range(i):
